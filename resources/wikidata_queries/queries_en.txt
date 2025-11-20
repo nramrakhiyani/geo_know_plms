@@ -1,0 +1,288 @@
+Query	Q12323	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q12323.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q12323	P206
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q12323.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P206}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q165	P205
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q165.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P205}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q4022	P205
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q4022.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P205}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q4421	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q4421.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q46831	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q46831.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q46831	P610
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q46831.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P610}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q515	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q515.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q6256	P30
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q6256.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P30}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q6256	P36
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q6256.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P36}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q8514	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q8514.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q8514	P30
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q8514.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P30}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q150784	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q150784.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q150784	P206
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q150784.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P206}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q194195	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q194195.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q34038	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q34038.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q179049	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q179049.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q483110	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q483110.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q1324633	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q1324633.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q1324633	P206
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q1324633.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P206}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q695850	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q695850.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q820477	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q820477.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q1248784	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q1248784.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+
+Query	Q159719	P17
+SELECT ?item ?itemLabel ?propId ?propVal ?propValLabel
+WHERE
+{
+?item wdt:P31 wd:Q159719.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en".}
+?item wikibase:sitelinks ?sitelinks.
+?item ?propId ?propVal
+VALUES ?propId {wdt:P17}
+}  order by desc(?sitelinks)
+LIMIT 200
+

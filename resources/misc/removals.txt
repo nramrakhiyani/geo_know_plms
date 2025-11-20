@@ -1,0 +1,4 @@
+Q46831	Bohemian Forest	Bavarian Forest	Southern Alps/Kā Tiritiri o te Moana
+Q8514	Médanos de Coro National Park	North Saharan steppe and woodlands	Tehuacán Valley matorral
+Q34038	Waterfalls Park, Edessa
+Q820477	Mines in the Battle of Messines (1917)

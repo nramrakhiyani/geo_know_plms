@@ -1,0 +1,8 @@
+east	eastern
+west	western
+north	northern
+south	southern
+southeast	southeastern
+southwest	southwestern
+northwest	northwestern
+northeast	northeastern

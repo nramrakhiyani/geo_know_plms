@@ -1,0 +1,33 @@
+Entity_Type	EntityID	Wikidata_Property_ID_and_label	SINGLE/MULTI	sentence_template1	sentence_template2
+country	Q6256	P30~continent	SINGLE	$A$ is part of the $B$ continent.	NA
+country	Q6256	P36~capital	SINGLE	$B$ is the capital of $A$.	$A$ has its capital city as $B$.
+city	Q515	P17~country	SINGLE	$A$ is a city located in $B$.	NA
+sea	Q165	P205~basin country	SINGLE	Rivers from $B$ flow into the $A$.	The $A$ is bound by $B$.
+sea	Q165	P205~basin country	MULTI	Rivers from countries such as $B_MULTI$ flow into the $A$.	The $A$ is bound by countries such as $B_MULTI$.
+river	Q4022	P205~basin country	SINGLE	The $A$ river flows through $B$.	$B$ has the $A$ river as one of its rivers.
+river	Q4022	P205~basin country	MULTI	The $A$ river flows through countries such as $B_MULTI$.	Countries such as $B_MULTI$ have the $A$ river as one of their rivers.
+dam	Q12323	P17~country	SINGLE	The $A$ dam is located in $B$.	NA
+dam	Q12323	P206~located in or next to body of water	SINGLE	The $A$ dam is located on the $B$ river.	The $A$ dam bounds the flow of the $B$ river.
+mountain range	Q46831	P17~country	SINGLE	The $A$ mountain range is located in $B$.	The $A$ mountain range runs through $B$.
+mountain range	Q46831	P17~country	MULTI	The $A$ mountain range passes through countries such as $B_MULTI$.	The $A$ mountain range runs through various countries such as $B_MULTI$.
+mountain range	Q46831	P610~highest point	SINGLE	$B$ is the highest point of the $A$ mountain range.	The highest point of the $A$ mountain range is $B$.
+forest	Q4421	P17~country	SINGLE	The $A$ forest is located in $B$.	$B$ has the $A$ forest as one of its forests.
+forest	Q4421	P17~country	MULTI	The $A$ forest is spread over countries such as $B_MULTI$.	NA
+desert	Q8514	P30~continent	SINGLE	The $A$ desert is part of the $B$ continent.	NA
+desert	Q8514	P17~country	MULTI	The $A$ desert is spread over countries such as $B_MULTI$.	NA
+waterfall	Q34038	P17~country	MULTI	The $A$ waterfall is located in countries namely $B_MULTI$.	NA
+waterfall	Q34038	P17~country	SINGLE	The $A$ waterfall is located in $B$.	NA
+canyon	Q150784	P17~country	MULTI	The $A$ canyon is spread over countries such as $B_MULTI$.	NA
+canyon	Q150784	P17~country	SINGLE	The $A$ canyon is located in $B$.	NA
+canyon	Q150784	P206~located in or next to body of water	MULTI	The $A$ canyon is created by water bodies namely $B_MULTI$.	NA
+canyon	Q150784	P206~located in or next to body of water	SINGLE	The $A$ canyon is created by the $B$ river.	NA
+power plant	Q159719	P17~country	SINGLE	The $A$ supplies electricity to states in $B$.	The $A$ is located in $B$.
+nature reserve	Q179049	P17~country	MULTI	The $A$ is spread over countries such as $B_MULTI$.	NA
+nature reserve	Q179049	P17~country	SINGLE	The $A$ is located in $B$.	NA
+amusement park	Q194195	P17~country	SINGLE	The $A$ amusement park is located in $B$.	NA
+stadium	Q483110	P17~country	SINGLE	The $A$ stadium is located in $B$.	NA
+air base	Q695850	P17~country	SINGLE	The $A$ serves the Air Force of $B$.	The $A$ is located in $B$.
+mine	Q820477	P17~country	SINGLE	The $A$ mine is located in $B$.	NA
+mine	Q820477	P17~country	MULTI	The $A$ mines are spread over countries such as $B_MULTI$.	NA
+naval base	Q1324633	P17~country	SINGLE	The $A$ serves the Navy of $B$.	The $A$ is located in $B$.
+naval base	Q1324633	P206~located in or next to body of water	SINGLE	The $A$ operates in the waters of the $B$.	NA

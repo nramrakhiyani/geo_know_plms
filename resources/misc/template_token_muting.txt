@@ -1,0 +1,11 @@
+river	river
+dam	dam, station, plant, barrage, reservoir
+mountain range	mountains, ghat, ghats, range, ranges, highlands, hills, escarpment
+forest	forest, forests, park, plateau, woodlands, woodland, wilderness, area
+desert	dunes, desert, sand, scablands, scabland
+waterfall	falls, fall, waterfall, waterfalls
+canyon	valley, canyon, gorge, valleys, canyons, gorges, dells, ravine, ravines
+amusement park	park, resort, resorts
+stadium	stadium, arena, ground, complex, convention
+mine	mine, mines, quarry, quarries
+mines	mine, mines, quarry, quarries
