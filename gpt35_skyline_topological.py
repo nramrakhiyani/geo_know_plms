@@ -12,7 +12,7 @@ output_folder_path = sys.argv[2]
 
 model_name = 'gpt35'
 mask_token = '[MASK]'
-openai.api_key = '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'
+openai.api_key = # read from file
 
 def alias_match(answer_list, curr_gen_text):
 	if('USA' in answer_list and (curr_gen_text.find('United States of America') > 0 or curr_gen_text.find('United States') > 0 or curr_gen_text.find('the US of America') > 0)):
@@ -194,4 +194,5 @@ print ('Total Number of Questions: ' + str(total_num_questions) + '\n')
 print ('#Near 1 hits: ' + str(overall_near1_hits) + '\t' + str(float(overall_near1_hits/total_num_questions)) + '\n')
 print ('#Near 5 hits: ' + str(overall_near5_hits) + '\t' + str(float(overall_near5_hits/total_num_questions)) + '\n')
 print ('#Near 10 hits: ' + str(overall_near10_hits) + '\t' + str(float(overall_near10_hits/total_num_questions)) + '\n')
+
 output_file.close()
